@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block paragraph %}
+<link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+<div id="boot_camp" >
+    <div>
+        <h1>
+            6 monthas in-Hous 
+            <br>
+            Bootcamp
+            <br>
+            Programer-koder.
+        </h1>
+    
+
+ <br>
+ <!-- <div>
+    <p>Starts on:11 Nov 2024</p>
+    
+ </div>
+ <div>
+    <p id="place">Placement Assistance</p>
+ </div> -->
+<!-- <input type="text" id="place" placeholder="Starts on:11 Nov 2024">
+<input type="text" id="place" placeholder="Placement Assistance"> -->
+
+    <button id="place">Starts on:11 Nov 2024</button>
+   <button id="place">Placement Assistance</button>
+
+<br><br><br><br>
+
+<h1 id="price">Price <span style="color:#02e797;">₹ 59000</span> <sub>[50,000+18%gst]</sub></h1>
+
+
+<button id="full" style="margin-bottom: 20%;">Seats Are Full</button>
+</div>
+
+<div >
+    <iframe id="youtube_link" style="width: 600px;" src="https://www.youtube.com/embed/60SRAWmMXyc" frameborder="0"></iframe>
+</div>
+</div>
+{% endblock paragraph %}
